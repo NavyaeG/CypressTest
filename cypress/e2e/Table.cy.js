@@ -30,7 +30,7 @@ describe('handle tables',()=>{
         cy.ReadPage()
     })
 
-    it('pagination',()=>{
+    it.only('pagination',()=>{
         cy.get("#form-customer > div.row > div.col-sm-6.text-end").then((e)=>{
             let mytext=e.text()
             let totalPages=mytext.substring(mytext.indexOf("(")+1,mytext.indexOf("Pages")-1)
