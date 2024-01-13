@@ -1,0 +1,5 @@
+cypress.config.js
+node_modules
+info.txt
+package-lock.json
+package.json
